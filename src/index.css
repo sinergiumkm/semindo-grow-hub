@@ -21,6 +21,17 @@ All colors MUST be HSL.
     --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
     --primary-hover: 217 91% 55%;
+    
+    /* Enhanced Button Colors */
+    --button-primary: 217 91% 60%;
+    --button-primary-foreground: 0 0% 100%;
+    --button-secondary: 217 25% 95%;
+    --button-secondary-foreground: 217 91% 45%;
+    --button-outline: transparent;
+    --button-outline-foreground: 217 91% 60%;
+    --button-outline-border: 217 91% 60%;
+    --button-hero: 0 0% 100%;
+    --button-hero-foreground: 217 91% 60%;
 
     /* Growth Green Secondary */
     --secondary: 158 64% 52%;
@@ -82,6 +93,17 @@ All colors MUST be HSL.
     --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
     --primary-hover: 217 91% 65%;
+    
+    /* Enhanced Button Colors Dark */
+    --button-primary: 217 91% 60%;
+    --button-primary-foreground: 0 0% 100%;
+    --button-secondary: 217 25% 15%;
+    --button-secondary-foreground: 217 91% 70%;
+    --button-outline: transparent;
+    --button-outline-foreground: 217 91% 70%;
+    --button-outline-border: 217 91% 60%;
+    --button-hero: 0 0% 100%;
+    --button-hero-foreground: 217 91% 50%;
 
     --secondary: 158 64% 52%;
     --secondary-foreground: 0 0% 100%;

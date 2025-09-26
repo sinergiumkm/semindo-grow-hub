@@ -37,18 +37,18 @@ const QuickAccess = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section className="py-12 sm:py-20 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 px-2">
             Mulai Perjalanan Bisnis Anda
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Pilih langkah pertama yang tepat untuk mengembangkan UMKM Anda dengan panduan ahli
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
           {quickAccessItems.map((item, index) => (
             <Card 
               key={item.title} 
@@ -84,7 +84,8 @@ const QuickAccess = () => {
 
                 {/* CTA Button */}
                 <Button 
-                  className="w-full group/btn bg-gradient-primary hover:opacity-90 text-white"
+                  variant="default"
+                  className="w-full group/btn"
                   asChild
                 >
                   <a href={item.href}>
@@ -102,7 +103,7 @@ const QuickAccess = () => {
           <p className="text-muted-foreground mb-4">
             Butuh bantuan memilih? Tim ahli kami siap membantu Anda
           </p>
-          <Button variant="outline" size="lg" className="hover:bg-primary hover:text-white">
+          <Button variant="outline" size="lg" className="px-6 py-3">
             Konsultasi dengan Ahli
           </Button>
         </div>
