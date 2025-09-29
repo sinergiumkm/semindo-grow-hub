@@ -26,7 +26,7 @@ const Navigation = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
               <img 
-                src="/src/assets/logo sinergi1.jpg" 
+                src="/src/assets/logo.jpg" 
                 alt="Sinergi Logo" 
                 className="h-10 w-auto"
               />
