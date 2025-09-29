@@ -85,7 +85,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="mb-4">
               <img 
-                src="/assets/logo.jpg" 
+                src="/logo.jpg" 
                 alt="Semindo Logo" 
                 className="h-12 w-auto"
               />
