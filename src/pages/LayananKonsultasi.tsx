@@ -8,6 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Bot, DollarSign, FileCheck, Globe, Calendar, Phone, Clock } from "lucide-react";
+import SEOHead from "@/components/ui/seo-head";
 
 const LayananKonsultasi = () => {
   const services = [
@@ -43,6 +44,11 @@ const LayananKonsultasi = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead 
+        title="Layanan Konsultasi UMKM – Digital, Keuangan, Sertifikasi, Ekspor"
+        description="Dapatkan konsultasi online untuk keuangan, digitalisasi, legalitas, dan ekspor. Booking jadwal dengan konsultan ahli Semindo secara mudah."
+        keywords="konsultasi UMKM, konsultasi digital, konsultasi keuangan, sertifikasi halal, konsultasi ekspor"
+      />
       <Navigation />
       
       {/* Hero Section */}

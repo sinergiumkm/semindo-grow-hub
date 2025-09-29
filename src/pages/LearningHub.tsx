@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { BookOpen, Video, Users, Award, Clock, Star, PlayCircle, Calendar } from "lucide-react";
+import SEOHead from "@/components/ui/seo-head";
 
 const LearningHub = () => {
   const modules = [
@@ -93,6 +94,11 @@ const LearningHub = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead 
+        title="Learning Hub Semindo – Modul, Webinar, & Sertifikat Digital"
+        description="Belajar marketing digital, keuangan, ekspor, dan legalitas. Ikuti webinar, temukan mentor, dan raih sertifikat digital blockchain-ready."
+        keywords="learning hub, modul pembelajaran UMKM, webinar bisnis, sertifikat digital, mentor bisnis"
+      />
       <Navigation />
       
       {/* Hero Section */}

@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Brain, Target, TrendingUp, Award, BookOpen, DollarSign, FileCheck, BarChart3 } from "lucide-react";
+import SEOHead from "@/components/ui/seo-head";
 
 const SelfAssessment = () => {
   const assessmentAreas = [
@@ -73,6 +74,11 @@ const SelfAssessment = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead 
+        title="Tes Mandiri UMKM – Cek Level Bisnis Anda"
+        description="Isi self-assessment gratis untuk mengetahui level usaha Anda. Dapatkan rekomendasi otomatis: pembiayaan, kursus, dan sertifikasi yang sesuai."
+        keywords="self assessment UMKM, tes mandiri bisnis, evaluasi usaha, AI assessment, rekomendasi bisnis"
+      />
       <Navigation />
       
       {/* Hero Section */}

@@ -3,6 +3,7 @@ import Footer from "@/components/ui/footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Users, Target, Heart, Award, Building2, TrendingUp } from "lucide-react";
+import SEOHead from "@/components/ui/seo-head";
 
 const TentangKami = () => {
   const team = [
@@ -50,6 +51,11 @@ const TentangKami = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead 
+        title="Tentang Semindo – Konsultan & Pendamping UMKM Digital"
+        description="Kenali visi, misi, tim konsultan, dan partner strategis Semindo. Lihat dampak nyata yang telah membantu ratusan UMKM naik kelas."
+        keywords="tentang semindo, konsultan UMKM, pendamping bisnis, tim ahli, partner strategis"
+      />
       <Navigation />
       
       {/* Hero Section */}

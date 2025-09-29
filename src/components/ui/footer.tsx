@@ -83,9 +83,13 @@ const Footer = () => {
         <div className="grid lg:grid-cols-6 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <h2 className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
-              Semindo
-            </h2>
+            <div className="mb-4">
+              <img 
+                src="/src/assets/logo sinergi1.jpg" 
+                alt="Semindo Logo" 
+                className="h-12 w-auto"
+              />
+            </div>
             <p className="text-background/70 mb-6 leading-relaxed">
               Platform konsultasi berbasis teknologi yang membantu UMKM Indonesia 
               berkembang melalui solusi digital, keuangan, dan strategi bisnis terintegrasi.

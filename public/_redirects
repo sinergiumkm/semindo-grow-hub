@@ -1,0 +1,6 @@
+# Redirect all routes to index.html for React Router
+/*    /index.html   200
+
+# Optional: Redirect old URLs or specific routes
+# /old-page    /new-page    301
+# /api/*       /.netlify/functions/:splat    200
